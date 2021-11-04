@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 24px;
+  font-size: 5vmin;
   background-color: #feeecc;
 }
 
@@ -21,14 +21,14 @@ body, html {
 }
 
 .logo img {
-  width: 250px;
+  width: 40vw;
   margin-top: 10px;
   /* height: 10%; */
 }
 
 .logo p {
   margin-top: 0px;
-  font-size: 20px;
+  font-size: 3.5vw;
   font-weight: lighter;
   font-family: 'Nanum Gothic Coding', monospace;
 }
@@ -52,7 +52,7 @@ body, html {
 h2 {
   margin-top: 100px;
   margin-bottom: 100px;
-  font-size: 40px;
+  font-size: 7vmin;
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
   /* color: #7eb300; */
