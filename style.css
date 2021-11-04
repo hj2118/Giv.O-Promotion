@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 5vmin;
+  font-size: 24px;
   background-color: #feeecc;
 }
 
@@ -21,14 +21,14 @@ body, html {
 }
 
 .logo img {
-  width: 40vw;
+  width: 250px;
   margin-top: 10px;
   /* height: 10%; */
 }
 
 .logo p {
   margin-top: 0px;
-  font-size: 3.5vw;
+  font-size: 20px;
   font-weight: lighter;
   font-family: 'Nanum Gothic Coding', monospace;
 }
