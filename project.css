@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Noto+Sans+KR&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
+  background-color: #feeecc;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-start; */
+  border-bottom: 1px solid;
+}
+
+.logo img {
+  width: 250px;
+  margin-top: 10px;
+  /* height: 10%; */
+}
+
+.logo p {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.navMenu a:visited, a {
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navMenu a:hover {
+  font-weight: bold;
+}
+
+.heroSection {
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+}
+
+.insetContent {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h2 {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  /* color: #7eb300; */
+  color: #ed9121;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  font-size: 20px;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+h3 {
+  font-size: 32px;
+  color: #fa0;
+}
+
+.insetContent a:hover, .insetContent a {
+  color: black;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 24px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.letter {
+  font-size: 24px;
+  /* font-family: 'Nanum Gothic Coding', sans-serif; */
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.gallerySection {
+  border: 0.5px solid;
+}
+.gallery {
+  display: flex;
+}
+
+.items {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.images {
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  display: flex;
+  color: grey;
+  height: 100px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 100px;
+  margin-bottom: 10px;
+  border-top: 1.5px solid;
+}
+
+.footer p {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 30px;
+}
